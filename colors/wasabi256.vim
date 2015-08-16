@@ -291,7 +291,7 @@ call <SID>X("TabLineFill" , "cccccc" , "242424"       , "none")    " tabline
 
 " syntax highlighting
 " -------------------
-call <SID>X("Comment"    , "555555" , ""       , "italic")  " any comment
+call <SID>X("Comment"    , "999999" , ""       , "italic")  " any comment
 call <SID>X("Constant"   , "e5786d" , ""       , "none")    " any constant
 call <SID>X("String"     , "95e454" , ""       , "italic")  " a string constant: 'this is a string'
 call <SID>X("Character"  , "95e454" , ""       , "italic")  " a character constant: 'c'; '\n'
