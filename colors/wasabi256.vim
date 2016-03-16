@@ -245,10 +245,13 @@ call <SID>X("Search"       , "111111" , "ffffaa" , "")       " Last search patte
 call <SID>X("MatchParen"   , "ecee90" , "2d2d2d" , "bold")   " The character under the cursor or just before it - if it is a paired bracket - and its match.
 call <SID>X("SpecialKey"   , "6c6c6c" , "121212" , "none")   " Meta and special keys listed with ':map'. Generally: text that is displayed differently from what it really is
 call <SID>X("Visual"       , "ecee90" , "597418" , "none")   " visual mode selection
-call <SID>X("LineNr"       , "6c6c6c" , "242424" , "none")   " Line numbers
-call <SID>X("CursorLineNr" , "ecee90" , "242424" , "none")   " Cursor Line number
+"call <SID>X("LineNr"       , "6c6c6c" , "242424" , "none")   " Line numbers
+call <SID>X("LineNr"       , "6c6c6c" , "121212" , "none")   " Line numbers
+"call <SID>X("CursorLineNr" , "ecee90" , "242424" , "none")   " Cursor Line number
+call <SID>X("CursorLineNr" , "ecee90" , "121212" , "none")   " Cursor Line number
 call <SID>X("Folded"       , "a0a8b0" , "323232" , "none")   " line used for closed folds
-call <SID>X("Title"        , "f6f3e8" , ""       , "none")   " titles for output from ':set all'; ':autocmd' etc.
+"call <SID>X("Title"        , "f6f3e8" , ""       , "none")   " titles for output from ':set all'; ':autocmd' etc.
+call <SID>X("Title"        , "e3bb6d" , ""       , "none")   " titles for output from ':set all'; ':autocmd' etc.
 call <SID>X("VertSplit"    , "444444" , "444444" , "none")   " the column separating vertically split windows.
 call <SID>X("StatusLine"   , "ffffaa" , "444444" , "italic") " status line of current window.
 call <SID>X("StatusLineNC" , "111111" , "444444" , "none")   " status lines of not-current windows.
@@ -304,7 +307,7 @@ call <SID>X("Statement"  , "87afff" , ""       , "none")    " any statement
 call <SID>X("Keyword"    , "87afff" , ""       , "none")    " any other keyword
 call <SID>X("PreProc"    , "e5786d" , ""       , "none")    " generic Preprocessor
 call <SID>X("Type"       , "caeb82" , ""       , "none")    " int; long; char; etc.
-call <SID>X("Special"    , "cccccc" , ""       , "none")    " any special symbol
+call <SID>X("Special"    , "cccccc" , ""       , "bold")    " any special symbol
 call <SID>X("Todo"       , "111111" , "ffaa00" , "italic")  " anything that needs extra attention; mostly the keywords TODO FIXME and XXX
             "Exception                                      " try; catch; throw
             "Conditional                                    " ifr; then; else; endif; switch; etc.
